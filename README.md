@@ -1,6 +1,9 @@
 # Finance-Currency-Convert-ECBdaily
 convert currencies using ECBdaily
 
+## Documentation
+(https://metacpan.org/pod/Finance::Currency::Convert::ECBdaily)
+
 ### SYNOPSIS
 
 	use Finance::Currency::Convert::ECBdaily;
@@ -22,16 +25,16 @@ Using ECBdaily, converts a sum between two currencies.
 
 ### USE
 
-Call the module's C<&convert> routine, supplying three arguments:
+Call the module's &convert routine, supplying three arguments:
 the amount to convert, and the currencies to convert from and to.
 
 Codes are used to identify currencies: you may view them in the
-values of the C<%currencies> hash, where keys are descriptions of
+values of the %currencies hash, where keys are descriptions of
 the currencies.
 
 In the event that attempts to convert fail, you will recieve C<undef>
 in response, with errors going to STDERR, and notes displayed if
-the modules global C<$CHAT> is defined.
+the modules global $CHAT is defined.
 
 ### SUBROUTINE convert
 
@@ -41,7 +44,7 @@ Requires the sum to convert, and two symbols to represent the source
 and target currencies.
 
 In more detail, access L<https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml>,
-where the value of C<s> (in the example, C<GBPUSD>) is the value of the source
+where the value of s (in the example, GBPUSD) is the value of the source
 and target currencies, and the rest is stuff I've not looked into....
 
 
