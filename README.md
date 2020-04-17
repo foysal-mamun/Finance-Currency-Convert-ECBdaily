@@ -1,7 +1,7 @@
 # Finance-Currency-Convert-ECBdaily
 convert currencies using ECBdaily
 
-## Documentation
+## CPAN
 https://metacpan.org/pod/Finance::Currency::Convert::ECBdaily
 
 ### SYNOPSIS
