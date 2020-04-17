@@ -2,7 +2,7 @@
 convert currencies using ECBdaily
 
 ## Documentation
-(https://metacpan.org/pod/Finance::Currency::Convert::ECBdaily)
+https://metacpan.org/pod/Finance::Currency::Convert::ECBdaily
 
 ### SYNOPSIS
 
